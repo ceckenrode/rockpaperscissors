@@ -1,0 +1,16 @@
+#gameboy {
+  background-image: url(../images/GameBoyAdvance.png);
+  width: 500px;
+  height: 277px;
+  position: relative;
+  background-size:100% auto !important;
+}
+
+#screen {
+  position: absolute;
+  background-color: black;
+  width: 218px;
+  height: 139px;
+  left: 142px;
+  top: 58px;
+}
