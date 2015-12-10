@@ -1,16 +1,18 @@
-#gameboy {
-  background-image: url(../images/GameBoyAdvance.png);
-  width: 500px;
-  height: 277px;
-  position: relative;
-  background-size:100% auto !important;
+* {
+  font-family: 'Share Tech Mono', ;
+}
+
+body {
+  padding-top: 50px;
+  background-color: #324393;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
 }
 
 #screen {
-  position: absolute;
-  background-color: black;
-  width: 218px;
-  height: 139px;
-  left: 142px;
-  top: 58px;
+  border: black solid;
+  height: 220px;
+  background-image: url("../images/embossed_paper.png");
 }
