@@ -1,5 +1,5 @@
 * {
-  font-family: 'Share Tech Mono', ;
+  font-family: 'pokemon_gbregular';
 }
 
 body {
@@ -15,4 +15,56 @@ body {
   border: black solid;
   height: 220px;
   background-image: url("../images/embossed_paper.png");
+}
+
+.scores {
+  text-align: left;
+  color: white;
+}
+
+.outline {
+  background-color: red;
+  width: 370px;
+  height: 490px;
+  border-bottom-left-radius:15%;
+  border-bottom-right-radius:15%;
+  border-top-left-radius:3%;
+  border-top-right-radius:3%;
+  position: relative;
+}
+
+.outerscreen {
+  height:40%;
+  width:80%;
+  background-color: blue;
+  margin-top: 13%;
+  margin-left: 10%;
+  border-bottom-left-radius:8%;
+  border-bottom-right-radius:8%;
+  border-top-left-radius:2%;
+  border-top-right-radius:2%;
+  position: absolute;
+
+}
+
+.power {
+    width: 10px;
+    height: 10px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 1%;
+}
+
+.display {
+  background-color: purple;
+  height:80%;
+  width:80%;
+  margin-left:10%;
+  margin-top: 5%;
+  position:absolute;
+
 }

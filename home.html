@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="http://www.justinaguilar.com/animations/css/animations.css">
     <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/webFont/stylesheet.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,21 +46,26 @@
 
     <div class="container">
       <div class="starter-template">
-      <div class="row">
 
-        <div id="screen">
-          <div class="row">
-            <div class="col-md-2 col-xs-6 col-sm-2 col-sm-offset-2 col-md-offset-2">
-              <img src="images/charmanderSpriteBack.gif" width="170" class="slideRight" id="userSelection">
-            </div>
-            <div class="col-md-8 col-sm-8 col-xs-4">
-              <img src="images/squirtleSprite.gif" width="70"  class="slideLeft" id="compSelection">
-            </div>
-          </div>
-        </div>
-    
+      <div class="outline">
+      <div class="outerscreen">
+      <div class="power"></div>
+      <div class="display">
       </div>
-      <div class="row">
+
+        <!--<div id="screen">
+          <div class="row">
+         
+          </div>
+        </div>-->
+ 
+      </div>
+      </div>
+
+      <div class="row scores">
+      <h3>Player Wins: <span id="playerWins">0</span></h3>
+      <h3>Computer Wins: <span id="computerWins">0</span></h3>
+      <h3>Round: <span id="computerWins">0</span></h3>
         <button id="clickme">Player One Loses</button>
         <button id="dontclickme">Player Two Loses</button>
       </div>
@@ -72,6 +78,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/rps.js"></script>
     <script type="text/javascript" src="js/animations.js"></script>
   </body>
