@@ -23,7 +23,7 @@ body {
 }
 
 .outline {
-  background-color: red;
+  background-color: #C63035;
   width: 370px;
   height: 490px;
   border-bottom-left-radius:15%;
@@ -31,12 +31,13 @@ body {
   border-top-left-radius:3%;
   border-top-right-radius:3%;
   position: relative;
+  border: solid 1px black;
 }
 
 .outerscreen {
-  height:40%;
+  height:45%;
   width:80%;
-  background-color: blue;
+  background-color: #6E7078;
   margin-top: 13%;
   margin-left: 10%;
   border-bottom-left-radius:8%;
@@ -44,27 +45,112 @@ body {
   border-top-left-radius:2%;
   border-top-right-radius:2%;
   position: absolute;
+  border: solid 1px black;
 
 }
 
 .power {
     width: 10px;
     height: 10px;
-    background: red;
+    background: #E61F26;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
     position: absolute;
     margin-top: 18%;
     margin-left: 1%;
+    border: solid black 1px;
 }
 
 .display {
-  background-color: purple;
-  height:80%;
+  background-color: #91847C;
+  height:75%;
   width:80%;
   margin-left:10%;
   margin-top: 5%;
   position:absolute;
+  border: solid black 1px;
 
+}
+
+.colorOuter {
+  position:absolute;
+  margin-top :63%;
+  margin-left: 55%;
+
+}
+
+.gameboyOuter {
+  position:absolute;
+  margin-top :63%;
+  margin-left: 14%;
+
+}
+
+.gamepad {
+  position: absolute;
+  margin-top: 85%;
+  margin-left: 10%;
+}
+
+.speakerGrill {
+  position: absolute;
+  margin-top: 110%;
+  margin-left: 70%;
+
+}
+
+.nintendoOval {
+  position: absolute;
+  font-family: Pretendo;
+  color: #C01C28;
+border-radius: 34px; 
+-moz-border-radius: 34px; 
+-webkit-border-radius: 34px; 
+border: 2px solid #C01C28;
+width: 30%;
+height:5%;
+margin-top: 76%;
+margin-left: 35%;
+
+}
+
+#reg {
+  font-family: Times;
+
+}
+
+.bButton {
+  color: #6E7078;
+  height: 40px;
+  width: 40px;
+  background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 95%;
+    margin-left: 60%;
+
+}
+.bButton p {
+  margin-top: 27%;
+}
+
+.aButton {
+  color: #6E7078;
+  height: 40px;
+  width: 40px;
+  background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 80%;
+
+}
+
+.aButton p {
+  margin-top: 27%;
 }
