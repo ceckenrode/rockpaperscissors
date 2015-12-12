@@ -1,5 +1,5 @@
 * {
-  font-family: 'pokemon_gbregular';
+  font-family: 'Share Tech Mono';
 }
 
 body {
@@ -46,7 +46,6 @@ body {
   border-top-right-radius:2%;
   position: absolute;
   border: solid 1px black;
-
 }
 
 .power {
@@ -103,11 +102,11 @@ body {
 .nintendoOval {
   position: absolute;
   font-family: Pretendo;
-  color: #C01C28;
+  color: #9D0A14;
 border-radius: 34px; 
 -moz-border-radius: 34px; 
 -webkit-border-radius: 34px; 
-border: 2px solid #C01C28;
+border: 2px solid #9D0A14;
 width: 30%;
 height:5%;
 margin-top: 76%;
@@ -124,13 +123,13 @@ margin-left: 35%;
   color: #6E7078;
   height: 40px;
   width: 40px;
-  background: black;
+  background: #2C2C2C;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
     position: absolute;
     margin-top: 95%;
-    margin-left: 60%;
+    margin-left: 65%;
 
 }
 .bButton p {
@@ -141,7 +140,7 @@ margin-top: 27%;
   color: #6E7078;
   height: 40px;
   width: 40px;
-  background: black;
+  background: #2C2C2C;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -164,6 +163,35 @@ width: 30px;
 height: 5px;
 position: absolute;
 margin-top: 115%;
-margin-left: 33%;
+}
+
+#selectButton {
+  margin-left: 40%;
+}
+
+#startButton {
+  margin-left: 50%;
+}
+
+#chat {
+  position: absolute;
+  margin-top: 40%;
+}
+
+.chatText {
+  z-index: 1;
+  margin-top: 46%;
+  margin-left: 5%;
+  position: absolute;
+  font-family: 'pokemon_gbregular';
+  font-size: .9em;
+}
+
+#question {
+  position: absolute;
+  margin-top: 5%;
+  font-family: 'pokemon_gbregular';
+  font-size: .9em;
+
 
 }

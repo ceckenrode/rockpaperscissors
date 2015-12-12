@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Rock, Paper, Scissors</title>
+  <title>Pokémon Rock, Paper, Scissors</title>
 
   <!-- Bootstrap -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -36,11 +36,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Project name</a>
+        <a class="navbar-brand" href="#">Pokémon RPS</a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="#">How it works</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -64,7 +64,8 @@
         <div class="bButton">
           <p>B</p>
         </div>
-        <div class="startSelect"></div>
+        <div class="startSelect" id="selectButton"></div>
+        <div class="startSelect" id="startButton"></div>
         <div class="outerscreen">
           <div class="power"></div>
           <div class="colorOuter"><img src="images/color.png" width="80">
@@ -72,8 +73,12 @@
           <div class="gameboyOuter"><img src="images/gameboy.png" width="120">
           </div>
           <div class="display">
-            <img src="images/charmanderSpriteBack.gif" width="80" class="slideRight" id="userSelection">
-            <img src="images/squirtleSprite.gif" width="70" class="slideLeft" id="compSelection">
+           <p id="question">Would you like to play?</p>
+           <div class="chatbox">
+           <img src="images/chatbox.png" class="img-responsive" id="chat">
+           <p class="chatText">&nbsp; Yes &#60;<br>No</p>
+
+          </div>
           </div>
 
           <!--<div id="screen">
