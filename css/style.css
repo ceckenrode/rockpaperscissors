@@ -134,7 +134,7 @@ margin-left: 35%;
 
 }
 .bButton p {
-  margin-top: 27%;
+margin-top: 27%;
 }
 
 .aButton {
@@ -153,4 +153,17 @@ margin-left: 35%;
 
 .aButton p {
   margin-top: 27%;
+}
+
+.startSelect {
+border-radius: 50px; 
+-moz-border-radius: 50px; 
+-webkit-border-radius: 50px; 
+background-color: #2B2C2C;
+width: 30px;
+height: 5px;
+position: absolute;
+margin-top: 115%;
+margin-left: 33%;
+
 }
