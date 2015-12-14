@@ -62,7 +62,7 @@ function selectScoreView() {
 
 var chooseStarterCharViewHtml = "<div class=\"pokeDescript\">";
 chooseStarterCharViewHtml += " <span class=\"glyphicon glyphicon-triangle-left\"><\/span>";
-chooseStarterCharViewHtml += "<img src=\"images\/charmanderSprite.gif\" height=\"42\" width=\"42\"><span class=\"glyphicon glyphicon-triangle-right\"><\/span>";
+chooseStarterCharViewHtml += "<img src=\"images\/CharmanderSprite.gif\" height=\"42\" width=\"42\"><span class=\"glyphicon glyphicon-triangle-right\"><\/span>";
 chooseStarterCharViewHtml += "<div class=\"chatbox-bottom\">";
 chooseStarterCharViewHtml += "<p>Charmander: This fire-type Pokémon is strong against plant types, but weak against water types.<\/p>";
 chooseStarterCharViewHtml += "<\/div>";
@@ -91,7 +91,7 @@ function selectStarterView() {
 
 var chooseStarterBulbViewHtml = "<div class=\"pokeDescript\">";
 chooseStarterBulbViewHtml += "<span class=\"glyphicon glyphicon-triangle-left\"><\/span>";
-chooseStarterBulbViewHtml += "<img src=\"images\/bulbasaurSprite.gif\" height=\"38\" width=\"37\"><span class=\"glyphicon glyphicon-triangle-right\"><\/span>";
+chooseStarterBulbViewHtml += "<img src=\"images\/BulbasaurSprite.gif\" height=\"38\" width=\"37\"><span class=\"glyphicon glyphicon-triangle-right\"><\/span>";
 chooseStarterBulbViewHtml += "<div class=\"chatbox-bottom\">";
 chooseStarterBulbViewHtml += "<p>Bulbasaur: This grass-type Pokémon is strong against water types, but weak against fire types.<\/p>";
 chooseStarterBulbViewHtml += "<\/div>";
@@ -101,7 +101,7 @@ var bulbDescript = "Bulbasaur: This grass-type Pokémon is strong against water 
 
 function selectStarterBulbView() {
     currentView = "chooseBulb";
-    $(".displayContainer img").attr('src', 'images/bulbasaurSprite.gif');
+    $(".displayContainer img").attr('src', 'images/BulbasaurSprite.gif');
     $(".chatbox-bottom p").fadeOut(100, function() {
         $(".chatbox-bottom p").text(bulbDescript);
     });
@@ -126,7 +126,7 @@ function selectStarterBulbView() {
 function selectStarterCharView() {
     currentView = "chooseChar";
     $("body").off();
-    $(".displayContainer img").attr('src', 'images/charmanderSprite.gif');
+    $(".displayContainer img").attr('src', 'images/CharmanderSprite.gif');
     $(".chatbox-bottom p").fadeOut(100, function() {
         $(".chatbox-bottom p").text(charDescript);
     });
@@ -150,7 +150,7 @@ function selectStarterCharView() {
 
 var chooseStarterSquirtViewHtml = "<div class=\"pokeDescript\">";
 chooseStarterSquirtViewHtml += "<span class=\"glyphicon glyphicon-triangle-left\"><\/span>";
-chooseStarterSquirtViewHtml += "<img src=\"images\/squirtleSprite.gif\" height=\"43\" width=\"39\"><span class=\"glyphicon glyphicon-triangle-right\"><\/span>";
+chooseStarterSquirtViewHtml += "<img src=\"images\/SquirtleSprite.gif\" height=\"43\" width=\"39\"><span class=\"glyphicon glyphicon-triangle-right\"><\/span>";
 chooseStarterSquirtViewHtml += "<div class=\"chatbox-bottom\">";
 chooseStarterSquirtViewHtml += "<p>Squirtle: This water-type Pokémon is strong against fire types, but weak against plant types.<\/p>";
 chooseStarterSquirtViewHtml += "<\/div>";
@@ -160,7 +160,7 @@ var squirtDescript = "Squirtle: This water-type Pokémon is strong against fire 
 
 function selectStarterSquirtView() {
     currentView = "chooseSquirt"
-    $(".displayContainer img").attr('src', 'images/squirtleSprite.gif');
+    $(".displayContainer img").attr('src', 'images/SquirtleSprite.gif');
     $(".chatbox-bottom p").fadeOut(100, function() {
         $(".chatbox-bottom p").html(squirtDescript);
     });
