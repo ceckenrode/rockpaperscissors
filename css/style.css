@@ -62,7 +62,7 @@ body {
 }
 
 .display {
-  background-color: #91847C;
+  background-color: #FFCB05;
   height:75%;
   width:80%;
   margin-left:10%;
@@ -188,7 +188,14 @@ margin-top: 115%;
   margin-left: 50%;
 }
 
-.chatbox {
+.chatbox-bottom {
+  border: double black;
+  text-align: left;
+  margin-top: 34%;
+  padding: 1%;
+}
+
+.chatbox-top {
   border: double black;
   text-align: left;
   margin-top: 26%;
@@ -197,4 +204,112 @@ margin-top: 115%;
 
 .question {
   margin-top: 5%;
+}
+
+.startSelectCapt {
+  margin-top: 117%;
+  position: absolute;
+}
+
+#selectCapt {
+margin-left: 40%;
+font-size: .65em;
+font-family: 'Share Tech Mono'; 
+}
+
+#startCapt {
+margin-left: 51%;
+font-size: .65em;
+}
+
+.powerCapt {
+  position: absolute;
+  margin-top: 22%;
+  margin-left: .5%;
+  font-size: .65em;
+}
+
+.powerParenth {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 5%;
+  font-size: .65em;
+  font-family: 'Share Tech Mono';
+}
+
+
+.pokeball {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.top {
+   background-color: red;
+    height:45px;
+     width:90px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+}
+
+.middle_circle{
+  background-color:#FFFFFF;
+  width:14px;
+  height:14px;
+  border-radius:50%;  
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 16%;
+  border: 3px solid #000000;
+}
+
+.white_in{
+  background-color:#FFFFFF;
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  border:1px solid #000000;
+  margin-top: 18%;
+  margin-left: 17.7%;
+}
+
+.bottom{
+  background-color:#FFFFFF;
+  height:45px;
+  width:90px;
+  border-radius:0 0 195px 195px;
+  border-top:2px solid #000000;
+}
+
+.pokelogofont {
+  font-family: 'PokemonSolidNormal';
+  color: #3C59A5;
+}
+
+.pretendo {
+  font-family: 'Pretendo'
+
+}
+
+.round {
+  margin-top: 25%;
+}
+
+.scoreboard {
+  margin-top: 20%;
+}
+
+.pokeDescript {
+  font-size: .9em;
+}
+
+.pokeDescript img {
+ position: absolute;
+ margin-left: -8%;
+ margin-top: -22%;
+}
+
+.pokeDescript p {
 }
