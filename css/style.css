@@ -20,6 +20,7 @@ body {
 .scores {
   text-align: left;
   color: white;
+  margin-bottom: 0;
 }
 
 .outline {
@@ -193,6 +194,7 @@ margin-top: 115%;
   text-align: left;
   margin-top: 34%;
   padding: 1%;
+  height: 82px;;
 }
 
 .chatbox-top {
@@ -307,9 +309,32 @@ font-size: .65em;
 
 .pokeDescript img {
  position: absolute;
- margin-left: -8%;
- margin-top: -22%;
+ margin-left: -10%;
+ margin-top: -25%;
 }
 
-.pokeDescript p {
+.pokeDescript .glyphicon-triangle-right {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 10%;
+}
+
+.pokeDescript .glyphicon-triangle-left {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: -19%;
+}
+.rightclick {
+  position: absolute;
+  height: 22px;
+  width: 27px;
+  margin-left: 65%;
+  margin-top: -60%;
+}
+
+.leftclick {
+  position: absolute;
+  height: 22px;
+  width: 27px;
+  margin-top: -60%;
 }
