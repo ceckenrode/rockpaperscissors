@@ -33,6 +33,7 @@ body {
   border-top-right-radius:3%;
   position: relative;
   border: solid 1px black;
+  margin: auto;
 }
 
 .outerscreen {
@@ -204,6 +205,10 @@ margin-top: 115%;
   padding: 1%;
 }
 
+.highlight {
+  background-color: orange;
+}
+
 .question {
   margin-top: 5%;
 }
@@ -338,3 +343,39 @@ font-size: .65em;
   width: 27px;
   margin-top: -60%;
 }
+
+.upclick {
+  position: absolute;
+  height: 27px;
+  width: 22px;
+  margin-top: -92%;
+  margin-left: 37%;
+}
+
+.downclick {
+  position: absolute;
+  height: 27px;
+  width: 22px;
+  margin-top: -32%;
+  margin-left: 37%;
+}
+
+#userSelection {
+  margin-left: -35%;
+  margin-top: 15%;
+  position: absolute;
+}
+#compSelection {
+  margin-left: 10%;
+  margin-top: 15%;
+  position: absolute;
+}
+
+.displayBattle {
+  background-image: url(../images/embossed_paper.png) !important; 
+}
+
+.winLossDraw {
+  margin-top: 25%;
+}
+
